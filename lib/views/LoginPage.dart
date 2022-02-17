@@ -8,8 +8,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xffffffff),
-      body: Center(
-        child: Column(
+      body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             // Container for SVG asset
@@ -138,8 +137,7 @@ class LoginPage extends StatelessWidget {
             )
 
           ],
-        ),
-      ),
+        )
     );
   }
 }

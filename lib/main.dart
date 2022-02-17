@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'MVP 193225',
-      home:  LoginPage(),
+      initialRoute: "login",
+      routes: {
+        'login':(BuildContext context) => const LoginPage(),
+      }
     );
   }
 }
