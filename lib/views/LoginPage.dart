@@ -26,6 +26,7 @@ class LoginPage extends StatelessWidget {
                 Container(
                   width: 300,
                   height: 48,
+                  alignment: Alignment.centerLeft,
                   decoration: BoxDecoration(
                     color: Color(0xff3169f5),
                     borderRadius: BorderRadius.circular(40.0),
@@ -35,7 +36,7 @@ class LoginPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(Icons.android, color: Colors.white),
-                      SizedBox(width: 20),
+                      SizedBox(width: 35),
                       Text(
                         "Continuar con Google",
                         style: TextStyle(
@@ -91,7 +92,7 @@ class LoginPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                 Icon(Icons.email, color:Color(0xff64686f)),
-                  SizedBox(width: 10),
+                  SizedBox(width: 30),
                   Text(
                     "Registrase con e-mail",
                     style: TextStyle(
